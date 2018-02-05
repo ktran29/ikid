@@ -25,7 +25,7 @@
                                     <action selector="switchView:" destination="M7d-hL-Lit" eventType="touchUpInside" id="o0p-0r-x0c"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why is leather armor perfect for sneaking?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkO-11-7DZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why is leather armor perfect for sneaking?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkO-11-7DZ">
                                 <rect key="frame" x="0.0" y="290.5" width="375" height="86"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -35,7 +35,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="nVb-ui-jPJ" firstAttribute="trailing" secondItem="xaJ-Bj-gdA" secondAttribute="trailing" constant="25" id="3Za-xz-Ymg"/>
-                            <constraint firstItem="CkO-11-7DZ" firstAttribute="leading" secondItem="nVb-ui-jPJ" secondAttribute="leading" id="5IG-Lt-GQb"/>
+                            <constraint firstItem="nVb-ui-jPJ" firstAttribute="leading" secondItem="CkO-11-7DZ" secondAttribute="leading" id="5IG-Lt-GQb"/>
                             <constraint firstItem="CkO-11-7DZ" firstAttribute="centerX" secondItem="t8z-YA-bXN" secondAttribute="centerX" id="GbF-fN-Ul1"/>
                             <constraint firstItem="CkO-11-7DZ" firstAttribute="centerY" secondItem="t8z-YA-bXN" secondAttribute="centerY" id="KEf-yd-8q4"/>
                             <constraint firstItem="nVb-ui-jPJ" firstAttribute="trailing" secondItem="CkO-11-7DZ" secondAttribute="trailing" id="je3-GG-VjE"/>
@@ -69,8 +69,8 @@
                                     <action selector="switchView:" destination="5ig-Mf-um8" eventType="touchUpInside" id="MyC-25-C4p"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A pie costs $2.50 in Jamaica, $3.00 in Cuba, and $3.50 in Barbados" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJ8-oF-iuM">
-                                <rect key="frame" x="0.0" y="247" width="375" height="172"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A pie costs $2.50 in Jamaica, $3.00 in Cuba, and $3.50 in Barbados" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJ8-oF-iuM">
+                                <rect key="frame" x="0.0" y="247.5" width="375" height="172"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -106,8 +106,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Knock knock" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEX-Pm-kLl">
-                                <rect key="frame" x="0.0" y="312.5" width="375" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Knock knock" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEX-Pm-kLl">
+                                <rect key="frame" x="0.0" y="312" width="375" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
