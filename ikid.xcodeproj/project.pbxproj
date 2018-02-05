@@ -11,12 +11,9 @@
 		6521901C2027EA3E004F8E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6521901A2027EA3E004F8E44 /* Main.storyboard */; };
 		6521901E2027EA3E004F8E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6521901D2027EA3E004F8E44 /* Assets.xcassets */; };
 		652190212027EA3E004F8E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6521901F2027EA3E004F8E44 /* LaunchScreen.storyboard */; };
-		6521902B2028160D004F8E44 /* PunFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521902A2028160D004F8E44 /* PunFirstViewController.swift */; };
-		6521902D20281614004F8E44 /* PunSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521902C20281614004F8E44 /* PunSecondViewController.swift */; };
-		6521902F20282AF0004F8E44 /* GoodFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521902E20282AF0004F8E44 /* GoodFirstViewController.swift */; };
-		6521903120282AF6004F8E44 /* GoodSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521903020282AF6004F8E44 /* GoodSecondViewController.swift */; };
-		6521903320282B01004F8E44 /* DadFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521903220282B01004F8E44 /* DadFirstViewController.swift */; };
-		6521903520282B07004F8E44 /* DadSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521903420282B07004F8E44 /* DadSecondViewController.swift */; };
+		6521903B20285A18004F8E44 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521903A20285A18004F8E44 /* GoodViewController.swift */; };
+		6521903D20285B80004F8E44 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521903C20285B80004F8E44 /* DadViewController.swift */; };
+		6521903F20285B88004F8E44 /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521903E20285B88004F8E44 /* PunViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +23,9 @@
 		6521901D2027EA3E004F8E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		652190202027EA3E004F8E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		652190222027EA3E004F8E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6521902A2028160D004F8E44 /* PunFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunFirstViewController.swift; sourceTree = "<group>"; };
-		6521902C20281614004F8E44 /* PunSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunSecondViewController.swift; sourceTree = "<group>"; };
-		6521902E20282AF0004F8E44 /* GoodFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodFirstViewController.swift; sourceTree = "<group>"; };
-		6521903020282AF6004F8E44 /* GoodSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodSecondViewController.swift; sourceTree = "<group>"; };
-		6521903220282B01004F8E44 /* DadFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadFirstViewController.swift; sourceTree = "<group>"; };
-		6521903420282B07004F8E44 /* DadSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadSecondViewController.swift; sourceTree = "<group>"; };
+		6521903A20285A18004F8E44 /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		6521903C20285B80004F8E44 /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		6521903E20285B88004F8E44 /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				652190162027EA3E004F8E44 /* AppDelegate.swift */,
-				6521902E20282AF0004F8E44 /* GoodFirstViewController.swift */,
-				6521903020282AF6004F8E44 /* GoodSecondViewController.swift */,
-				6521903220282B01004F8E44 /* DadFirstViewController.swift */,
-				6521903420282B07004F8E44 /* DadSecondViewController.swift */,
+				6521903A20285A18004F8E44 /* GoodViewController.swift */,
+				6521903C20285B80004F8E44 /* DadViewController.swift */,
+				6521903E20285B88004F8E44 /* PunViewController.swift */,
 				6521901A2027EA3E004F8E44 /* Main.storyboard */,
-				6521902A2028160D004F8E44 /* PunFirstViewController.swift */,
-				6521902C20281614004F8E44 /* PunSecondViewController.swift */,
 				6521901D2027EA3E004F8E44 /* Assets.xcassets */,
 				6521901F2027EA3E004F8E44 /* LaunchScreen.storyboard */,
 				652190222027EA3E004F8E44 /* Info.plist */,
@@ -151,13 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6521903120282AF6004F8E44 /* GoodSecondViewController.swift in Sources */,
-				6521902B2028160D004F8E44 /* PunFirstViewController.swift in Sources */,
-				6521903320282B01004F8E44 /* DadFirstViewController.swift in Sources */,
-				6521903520282B07004F8E44 /* DadSecondViewController.swift in Sources */,
-				6521902F20282AF0004F8E44 /* GoodFirstViewController.swift in Sources */,
-				6521902D20281614004F8E44 /* PunSecondViewController.swift in Sources */,
+				6521903D20285B80004F8E44 /* DadViewController.swift in Sources */,
+				6521903F20285B88004F8E44 /* PunViewController.swift in Sources */,
 				652190172027EA3E004F8E44 /* AppDelegate.swift in Sources */,
+				6521903B20285A18004F8E44 /* GoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
