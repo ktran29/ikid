@@ -10,6 +10,8 @@ import UIKit
 
 class PunFirstViewController: UIViewController {
     @IBOutlet weak var punText: UILabel!
+    @IBOutlet weak var punButton: UIButton!
+    
     
     fileprivate var punFirstViewController : PunFirstViewController!
     fileprivate var punSecondViewController : PunSecondViewController!
@@ -44,7 +46,7 @@ class PunFirstViewController: UIViewController {
     }
     
     
-    @IBAction func switchPunView(_ sender: UIButton) {
+    @IBAction func switchView(_ sender: UIButton) {
         
         UIView.beginAnimations("View Flip", context: nil)
         UIView.setAnimationDuration(0.4)
@@ -53,13 +55,17 @@ class PunFirstViewController: UIViewController {
         if punFirstViewController != nil &&
             punFirstViewController?.view.superview != nil {
             UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
-//            punSecondViewController.view.frame = view.frame
+            punSecondViewController.view.frame = view.frame
             switchViewController(punFirstViewController, to: punSecondViewController)
+            punText.isHidden = true
+            punButton.setTitle("Back", for: .normal)
         }
         else {
             UIView.setAnimationTransition(.flipFromLeft, for: view, cache: true)
-//            punFirstViewController.view.frame = view.frame
+            punFirstViewController.view.frame = view.frame
             switchViewController(punSecondViewController, to: punFirstViewController)
+            punText.isHidden = false
+            punButton.setTitle("Next", for: .normal)
         }
         UIView.commitAnimations()
     }
@@ -69,11 +75,11 @@ class PunFirstViewController: UIViewController {
             from!.willMove(toParentViewController: nil)
             from!.view.removeFromSuperview()
             from!.removeFromParentViewController()
-            if from == punFirstViewController {
-                punText.isHidden = true
-            } else {
-                punText.isHidden = false
-            }
+//            if from == punFirstViewController {
+//                punText.isHidden = true
+//            } else {
+//                punText.isHidden = false
+//            }
         }
         
         if to != nil {
